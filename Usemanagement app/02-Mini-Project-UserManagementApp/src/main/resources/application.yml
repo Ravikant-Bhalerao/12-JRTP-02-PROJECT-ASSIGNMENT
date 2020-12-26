@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: create
+# Settings for the oracle connection
+    datasource:
+        url:
+            jdbc:oracle:thin:@localhost:1521:orcl
+        username:
+           system
+        password:
+           durga
+        driver-class-name:
+          
+                  oracle.jdbc.OracleDriver
+          
